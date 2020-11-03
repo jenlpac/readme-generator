@@ -39,6 +39,7 @@ const questions = [
         type: "input",
         name: "installation",
         message: "Please provide instructions on how to install your application. Include dependencies that are required.",
+        default: "Run npm install in your terminal."
     },
     {
         // Add Usage section:
@@ -71,7 +72,7 @@ const questions = [
         type: "input",
         name: "tests",
         message: "Provide instructions for testing application.",
-        default: "npm test"
+        default: "Run 'npm test' in your terminal."
 
     },
     // Add Questions/Contact section:
@@ -93,7 +94,6 @@ const questions = [
         name: "email",
         message: "What is your email address?"
     }
-
 ];
 
 // function to write README file
