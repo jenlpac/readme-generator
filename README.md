@@ -42,3 +42,6 @@
   #### Link to walkthrough video:
   * https://drive.google.com/file/d/14H_y9ZzDwrrwgKePlVVuPamXEOiFVNql/view
 
+  #### Link to auto-generated sample ReadMe.md file:
+  * https://github.com/jenlpac/readme-generator/blob/develop/READMEsample.md
+
