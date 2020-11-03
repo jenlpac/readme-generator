@@ -37,7 +37,7 @@ const questions = [
     {
         // Add Installation instructions:
         type: "input",
-        name: "installation",
+        name: "install",
         message: "Please provide instructions on how to install your application. Include dependencies that are required.",
         default: "Run npm install in your terminal."
     },
@@ -63,7 +63,7 @@ const questions = [
     {
         // Add Contributing guidelines:
         type: "input",
-        name: "contributing",
+        name: "contribute",
         message: "Provide guidelines on how someone can participate in development."
 
     },
