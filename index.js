@@ -98,11 +98,23 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        console.log("Your ReadMe.MD has been generated!")
+    });
 }
 
 // function to initialize program
 function init() {
-
+    inquirer
+        .prompt(questions)
+        .then((responses) => {
+            writeToFile("README.md", generateMarkdown({...responses}));
+            console.log("ReadMe file complete!")
+        })
 }
 
 // function call to initialize program
